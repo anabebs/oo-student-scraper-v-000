@@ -10,7 +10,7 @@ end
 
   def self.create_from_collection(students_hash)
     html = File.read('.html')
-  student = Nokogiri::HTML(html)
+  list = Nokogiri::HTML(html)
  
   projects = {}
   end
