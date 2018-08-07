@@ -3,7 +3,7 @@ class Student
   attr_accessor :name, :location, :twitter, :linkedin, :github, :blog, :profile_quote, :bio, :profile_url 
 
   @@all = []
-projects = {}
+student_hash = {}
   def initialize(student_hash)
  @@all << self
 end
