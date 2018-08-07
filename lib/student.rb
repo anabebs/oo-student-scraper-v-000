@@ -1,5 +1,8 @@
 class Student
 @@all = []
+
+ attr_accessor :name, :location, :twitter, :linkedin, :github, :blog, :profile_quote, :bio, :profile_url 
+
    def initialize(student_hash)	  
     	    student_hash.each {|k,v| self.send(("#{k}="),v)}
     @@all << self
