@@ -10,7 +10,7 @@ end
 
   def self.create_from_collection(students_hash)
     html = File.read('fixtures/kickstarter.html')
-  kickstarter = Nokogiri::HTML(html)
+  student = Nokogiri::HTML(html)
  
   projects = {}
   end
